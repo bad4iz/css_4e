@@ -106,5 +106,20 @@ nav a:hover{
 }
 .logo {
     -webkit-animation: logo 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
+@-webkit-keyframes swallow{
+    from {
+        transform: rotate(0) scale(1 , .5);
+    }
+    to {
+        transform: rotate(0) scale(1, 1);
+    }
+}
+.swallow {
+    -webkit-animation: swallow 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
