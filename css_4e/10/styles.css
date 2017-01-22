@@ -82,10 +82,29 @@ nav a {
 }
 
 /* пользовательские стили  */
+nav a{
+    transition: transform .5s,
+        background-color 1s ease-in .5s
+}
+nav a:hover{
+    background-color: red;
+    transform: scale(1.5);
+}
 
-
-
-
-
-
+@-webkit-keyframes logo{
+    from {
+        -webkit-transform: rotate(0) scale(.5);
+        left: 120%;
+    }
+    50% {
+        -webkit-transform: rotate(-720deg) scale(.5);
+        left: 0%;
+    }to {
+        -webkit-transform: rotate(0) scale(1);
+        left: 0%;
+    }
+}
+.logo {
+    -webkit-animation: logo 2s;
+}
 
