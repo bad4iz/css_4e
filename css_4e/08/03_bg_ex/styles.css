@@ -13,7 +13,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 body {
-	line-height: 1.2;
+	line-height: 1;
 }
 ol { 
 	padding-left: 1.4em;
@@ -44,7 +44,7 @@ table {
 }
 
 .announcement {
-	margin-right: 600px;
+	margin-right: 70px;
 	margin-left: 20px;
 	
 }
@@ -95,6 +95,7 @@ table {
 
 html {
 height: 100%;
+background-image: -webkit-linear-gradient(top, rgb(176,194,213), white 600px);
 background-image: linear-gradient(to bottom, rgb(176,194,213), white 600px);
 }
 
