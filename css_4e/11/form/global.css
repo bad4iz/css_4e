@@ -49,3 +49,8 @@ p {
     color: white;
     font-family:Tahoma, Geneva, sans-serif;
 }
+.subform .label {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
