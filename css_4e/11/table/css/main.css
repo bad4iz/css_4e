@@ -43,6 +43,7 @@ h1 {
 .inventory {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; width: 100%;
     margin-top: 25px;
+    border-collapse: collapse;
 }
 .inventory caption {
     text-align: right;
@@ -51,4 +52,5 @@ h1 {
 .inventory td, .inventory th {
     font-size: 1.1em;
     border: 1px solid #DDB575;
+    padding: 3px 7px 2px 7px;
 }
