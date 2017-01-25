@@ -84,8 +84,6 @@ nav a {
 	padding: 10px;
 	border-right: 1px dashed rgba(255,255,255,.75);
 	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	-o-transition: all .5s;
 	transition: all .5s;
 }
 nav li:last-of-type a {
@@ -128,3 +126,8 @@ footer a {
 	color: white;	
 }
 /* стили из практикума главы 13  */
+
+.sidebar1 {
+    float: left;
+    width: 20%;
+}
