@@ -148,7 +148,9 @@ footer {
     clear: both;
 }
 
-
+nav ul, header h1, footer p {
+    max-width: 1200px;
+    margin: 0 auto; }
 
 
 
