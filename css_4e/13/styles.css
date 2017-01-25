@@ -126,6 +126,7 @@ footer a {
 	color: white;	
 }
 /* стили из практикума главы 13  */
+* {  box-sizing: border-box; }
 
 .sidebar1 {
     float: left;
