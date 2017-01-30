@@ -93,8 +93,6 @@ nav a {
 	letter-spacing: .1em;
 	background-color: rgb(232,113,35);
 	background: -webkit-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
-	background: -moz-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
-	background: -o-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
 	background: linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
 	border: 1px solid rgb(232,113,35);
 	margin-right: 5px;
@@ -114,7 +112,10 @@ footer .copyright {
 /* стили из практикума главы 14 */
 
 
-
+header .badge {
+    position: absolute;
+    top: -20px;  left: -90px;
+}
 
 
 
