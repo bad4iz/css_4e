@@ -1,0 +1,47 @@
+
+    .body{
+        background-color: black;
+        height: 100%;
+    }
+
+    @-webkit-keyframes swallow{
+    from {
+        background-image: url(swallow/1.png);
+
+    }
+    25% {
+         background-image: url(swallow/2.png);
+        -webkit-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+    }
+    50% {
+         background-image: url(swallow/3.png);
+        -webkit-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+    }
+    75% {
+         background-image: url(swallow/4.png);
+        -webkit-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+    }
+    to {
+
+        background-image: url(swallow/5.png);
+        -webkit-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+    }
+}
+.img {
+       -webkit-transition-timing-function:linear;
+       transition-timing-function:linear;
+    height: 100%;
+    background-position: center right;
+     background-image: url(swallow/swallow.png);
+    background-repeat: no-repeat;
+/*    -webkit-animation: swallow 1s;*/
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+}
