@@ -1,51 +1,52 @@
-
-    .body{
-        background-color: black;
-        height: 100%;
-    }
-
-    @-webkit-keyframes swallow{
+.body {
+    background-color: black;
+    height: 100%;
+}
+@-webkit-keyframes swallow {
     from {
-        background-image: url(swallow/1.png);
-
+        background-position: -4016 16px;
+    }
+    12% {
+        background-position: -3514 14px;
     }
     25% {
-         background-image: url(swallow/2.png);
-        -webkit-transition-duration: 0.25s;
-        transition-duration: 0.25s;
+        background-position: -3012 12px;
+    }
+    37% {
+        background-position: -2510 10px;
     }
     50% {
-         background-image: url(swallow/3.png);
-        -webkit-transition-duration: 0.25s;
-        transition-duration: 0.25s;
+        background-position: -2008 8px;
+    }
+    62% {
+        background-position: -1506 6px;
     }
     75% {
-         background-image: url(swallow/4.png);
-        -webkit-transition-duration: 0.25s;
-        transition-duration: 0.25s;
+        background-position: -1004 4px;
     }
-    to {
+    87% {
+        background-position: -502 2px;
+    }
+    to  {
+        background-position: -00 0px;
+        animation-duration: 2s;
 
-        background-image: url(swallow/5.png);
-        -webkit-transition-duration: 0.25s;
-        transition-duration: 0.25s;
+
     }
 }
 .img {
-    width: 170px;
-    margin: auto;
-       -webkit-transition-timing-function:linear;
-       transition-timing-function:linear;
+    width: 200px;
     height: 100%;
-    background-position: center right;
-     background-image: url(swallow/swallow.png);
+    margin: auto;
+    transition-timing-function: ease-in-out;
+    background-position: -4016 16;
+    background-image: url(swallow/swallow.png);
     background-repeat: no-repeat;
-/*
-    -webkit-animation: swallow 1s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-*/
 
+
+
+}
+.img:hover {
+    animation: swallow 0.5s steps(1) infinite;
+    animation-direction: alternate;
 }
