@@ -38,10 +38,12 @@
     background-position: center right;
      background-image: url(swallow/swallow.png);
     background-repeat: no-repeat;
-/*    -webkit-animation: swallow 1s;*/
+/*
+    -webkit-animation: swallow 1s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
+*/
 
 }
