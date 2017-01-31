@@ -32,6 +32,8 @@
     }
 }
 .img {
+    width: 160px;
+    margin: auto;
        -webkit-transition-timing-function:linear;
        transition-timing-function:linear;
     height: 100%;
