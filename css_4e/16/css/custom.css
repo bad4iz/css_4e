@@ -35,20 +35,21 @@
 .action h1 {
     margin: 0;
 }
+ .nav .button {
+        width: 48%;
+        margin: 2px 0;
+    }
 .action h2 {
     margin: 0 0 20px 0;
 }
-
+h1 {  font-size: 3rem; } h2 {  font-size: 2.5rem; }
 /* стили для ширины крупнее мобильных */
 
 
 /* стили для ширины 400 пикселов и выше */
 
 @media (min-width: 400px) {
-    .nav .button {
-        width: 48%;
-        margin: 2px 0;
-    }
+
 }
 
 /* стили для ширины крупнее фаблетов */
