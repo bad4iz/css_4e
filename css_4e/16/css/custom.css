@@ -4,7 +4,10 @@
     padding: 50px 0 70px 0;
     background-image: url(../imgs/header.jpg);
     background-size: auto; }
-
+.logo {
+    font-weight: 600;
+     color: rgb(255, 209, 143);
+}
 /* стили для ширины крупнее мобильных */
 /* стили для ширины 400 пикселов и выше */
 @media (min-width: 400px) {
