@@ -5,3 +5,13 @@
 .nav {
     justify-content: space-between;
 }
+.nav a {
+    width: 23%;
+}
+.boxes div {
+    flex: 1 1 250px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    background-color: rgba(0,0,0,.1);
+}
