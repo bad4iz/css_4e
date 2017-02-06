@@ -1,8 +1,8 @@
 <?
 function say($name){
-    echo $name;
     $name = "vasa";
+    echo $name;
 }
 
-//$name = "igor";
+$name = "igor";
 say($name);
