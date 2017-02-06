@@ -31,3 +31,6 @@
 .footer .signup {
     flex: 1 1 250px;
 }
+.signup label {
+    width: 100%;
+}
